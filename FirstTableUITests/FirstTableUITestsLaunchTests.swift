@@ -2,7 +2,7 @@
 //  FirstTableUITestsLaunchTests.swift
 //  FirstTableUITests
 //
-//  Created by Suvendu Kumar on 25/04/23.
+//  Created by Harapriya on 25/04/23.
 //
 
 import XCTest
@@ -17,7 +17,7 @@ final class FirstTableUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    func testLaunch() throws {
+    func testLauModench() throws {
         let app = XCUIApplication()
         app.launch()
 

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,14 @@
 		580AFDE729F8212700E1DAD8 /* FirstTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580AFDE629F8212700E1DAD8 /* FirstTableTests.swift */; };
 		580AFDF129F8212700E1DAD8 /* FirstTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580AFDF029F8212700E1DAD8 /* FirstTableUITests.swift */; };
 		580AFDF329F8212700E1DAD8 /* FirstTableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580AFDF229F8212700E1DAD8 /* FirstTableUITestsLaunchTests.swift */; };
+		580AFE0029F827A900E1DAD8 /* ViewControllerDistrict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580AFDFF29F827A900E1DAD8 /* ViewControllerDistrict.swift */; };
+		580AFE0229F8350800E1DAD8 /* DataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580AFE0129F8350800E1DAD8 /* DataClass.swift */; };
+		580AFE0A29F85D4100E1DAD8 /* PresentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580AFE0929F85D4100E1DAD8 /* PresentManager.swift */; };
+		580AFE0C29F8614300E1DAD8 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580AFE0B29F8614300E1DAD8 /* ShowImageViewController.swift */; };
+		589142EC2A3109DC0092784C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589142EB2A3109DC0092784C /* NetworkManager.swift */; };
+		589142EE2A310A410092784C /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589142ED2A310A410092784C /* CityModel.swift */; };
+		589142F02A310F7A0092784C /* LocalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589142EF2A310F7A0092784C /* LocalityModel.swift */; };
+		589142F22A32289B0092784C /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589142F12A32289B0092784C /* CityTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		580AFDEC29F8212700E1DAD8 /* FirstTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		580AFDF029F8212700E1DAD8 /* FirstTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableUITests.swift; sourceTree = "<group>"; };
 		580AFDF229F8212700E1DAD8 /* FirstTableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		580AFDFF29F827A900E1DAD8 /* ViewControllerDistrict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDistrict.swift; sourceTree = "<group>"; };
+		580AFE0129F8350800E1DAD8 /* DataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClass.swift; sourceTree = "<group>"; };
+		580AFE0929F85D4100E1DAD8 /* PresentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentManager.swift; sourceTree = "<group>"; };
+		580AFE0B29F8614300E1DAD8 /* ShowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
+		589142EB2A3109DC0092784C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		589142ED2A310A410092784C /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		589142EF2A310F7A0092784C /* LocalityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalityModel.swift; sourceTree = "<group>"; };
+		589142F12A32289B0092784C /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +115,12 @@
 		580AFDCE29F8212600E1DAD8 /* FirstTable */ = {
 			isa = PBXGroup;
 			children = (
-				580AFDCF29F8212600E1DAD8 /* AppDelegate.swift */,
-				580AFDD129F8212600E1DAD8 /* SceneDelegate.swift */,
-				580AFDD329F8212600E1DAD8 /* ViewController.swift */,
-				580AFDD529F8212600E1DAD8 /* Main.storyboard */,
-				580AFDD829F8212700E1DAD8 /* Assets.xcassets */,
-				580AFDDA29F8212700E1DAD8 /* LaunchScreen.storyboard */,
+				580AFE0829F85D2D00E1DAD8 /* Maneger */,
+				580AFE0729F85D1800E1DAD8 /* Resources */,
+				580AFE0629F85CF900E1DAD8 /* Model */,
+				580AFE0529F85CF200E1DAD8 /* View */,
+				580AFE0429F85CE700E1DAD8 /* ViewController */,
+				580AFE0329F85CCF00E1DAD8 /* Application */,
 				580AFDDD29F8212700E1DAD8 /* Info.plist */,
 			);
 			path = FirstTable;
@@ -125,6 +141,62 @@
 				580AFDF229F8212700E1DAD8 /* FirstTableUITestsLaunchTests.swift */,
 			);
 			path = FirstTableUITests;
+			sourceTree = "<group>";
+		};
+		580AFE0329F85CCF00E1DAD8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				580AFDD129F8212600E1DAD8 /* SceneDelegate.swift */,
+				580AFDCF29F8212600E1DAD8 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		580AFE0429F85CE700E1DAD8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				580AFDD329F8212600E1DAD8 /* ViewController.swift */,
+				589142F12A32289B0092784C /* CityTableViewCell.swift */,
+				580AFDFF29F827A900E1DAD8 /* ViewControllerDistrict.swift */,
+				580AFE0B29F8614300E1DAD8 /* ShowImageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		580AFE0529F85CF200E1DAD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				580AFDDA29F8212700E1DAD8 /* LaunchScreen.storyboard */,
+				580AFDD529F8212600E1DAD8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		580AFE0629F85CF900E1DAD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				580AFE0129F8350800E1DAD8 /* DataClass.swift */,
+				589142ED2A310A410092784C /* CityModel.swift */,
+				589142EF2A310F7A0092784C /* LocalityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		580AFE0729F85D1800E1DAD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				580AFDD829F8212700E1DAD8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		580AFE0829F85D2D00E1DAD8 /* Maneger */ = {
+			isa = PBXGroup;
+			children = (
+				580AFE0929F85D4100E1DAD8 /* PresentManager.swift */,
+				589142EB2A3109DC0092784C /* NetworkManager.swift */,
+			);
+			path = Maneger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +279,7 @@
 				};
 			};
 			buildConfigurationList = 580AFDC729F8212600E1DAD8 /* Build configuration list for PBXProject "FirstTable" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -258,9 +330,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580AFE0029F827A900E1DAD8 /* ViewControllerDistrict.swift in Sources */,
+				580AFE0A29F85D4100E1DAD8 /* PresentManager.swift in Sources */,
 				580AFDD429F8212600E1DAD8 /* ViewController.swift in Sources */,
+				580AFE0229F8350800E1DAD8 /* DataClass.swift in Sources */,
+				589142F02A310F7A0092784C /* LocalityModel.swift in Sources */,
+				589142EC2A3109DC0092784C /* NetworkManager.swift in Sources */,
 				580AFDD029F8212600E1DAD8 /* AppDelegate.swift in Sources */,
+				580AFE0C29F8614300E1DAD8 /* ShowImageViewController.swift in Sources */,
 				580AFDD229F8212600E1DAD8 /* SceneDelegate.swift in Sources */,
+				589142EE2A310A410092784C /* CityModel.swift in Sources */,
+				589142F22A32289B0092784C /* CityTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +517,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCH2JZL7P2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FirstTable/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +525,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +546,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCH2JZL7P2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FirstTable/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,6 +554,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
